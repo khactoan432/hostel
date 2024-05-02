@@ -119,13 +119,9 @@ const PostNew = () => {
     return (
             <div className="col-start-3 col-span-8 gap-3 max-w-[1536px] mx-auto">
                 <div className="flex flex-col row-start-1 row-span-7 col-start-3 col-span-6 ml-5">
-                    <div className="py-4 mt-6 border-b border-gray rounded-md h-fit text-3xl font-bold">
-                        Đăng tin mới
-                    </div>
-
                     <form onSubmit={handleSubmit} className="my-10 mr-10">
                         <div className="my-8">
-                            <p className="[font-family:'Poppins-Medium',Helvetica] font-medium text-black text-2xl">Dịch vụ</p>
+                            <p className="flex justify-center items-center [font-family:'Poppins-Medium',Helvetica] font-medium text-black text-2xl text-5xl">Dịch vụ</p>
                             <div className="items-center mt-8">
                                 <label className="mb-2 block w-full [font-family:'Poppins-Medium',Helvetica] font-medium text-black text-lg" htmlFor="service">Gói dịch vụ</label>
                                 {/* <input className="px-3 block w-full h-10 outline-none rounded-[4px] border border-solid border-[#cccccc]" type="text" defaultValue="" id="service" name="service"/> */}
@@ -191,8 +187,7 @@ const PostNew = () => {
                                 </div>
                             </div> */}
 
-                            <div className="flex justify-between mt-8">
-                                {/* <div className="bg-[#000] w-full h-60 mr-4"></div> */}
+                            {/* <div className="flex justify-between mt-8">
                                 <div className='w-full h-72 rounded-md overflow-hidden'>
                                         <GoogleMapReact
                                             bootstrapURLKeys={{ key: 'AIzaSyDWTx7bREpM5B6JKdbzOvMW-RRlhkukmVE' }}
@@ -217,7 +212,7 @@ const PostNew = () => {
                                     * Để tăng độ tin cậy và tin rao được nhiều người quan tâm hơn, hãy sửa vị trí tin rao của bạn trên bản đồ bằng cách kéo icon tới đúng vị trí tin rao.
                                     </p>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
 
                         <div className="my-8">
@@ -317,8 +312,8 @@ const PostNew = () => {
                             </div>
                         </div>
 
-                        <button type='submit' className='w-full justify-center items-center rounded-md px-3 py-3 mt-8 mb-16 bg-[#008000]'>
-                            <p className='text-sm text-white font-semibold'>Tạo mới</p>
+                        <button type='submit' className='w-full justify-center items-center rounded-md px-3 py-3 mt-8 mb-16 bg-[#c71414]'>
+                            <p className='text-sm text-white font-semibold'>Đăng bài</p>
                         </button>
 
                         <div id="alert-3" className={isSubmit? " border-4 border-green-300 flex items-center p-4 mb-4 text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400": "hidden"} role="alert">

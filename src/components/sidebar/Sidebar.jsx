@@ -64,10 +64,10 @@ const Sidebar = ({ }) => {
   }, [])
 
   return (
-    <div className="font-semibold row-start-1 row-span-7 col-start-1 col-span-2 text-lg bg-[#F5F4F3]">
+    <div className="pl-10 pr-10 font-semibold row-start-1 row-span-7 col-start-1 col-span-2 text-lg bg-[#FEF0F3]">
       <div className="py-8 grid grid-cols-2">
         <div className="ml-4 grid grid-cols-2 font-medium">
-          <div className="w-20 h-20 rounded-full bg-white items-center overflow-hidden">
+          <div className="mr-10 w-20 h-20 rounded-full bg-white items-center overflow-hidden">
             <img src={profile.avatar} alt="avatar" className="w-full h-full" />
           </div>
           <div className="pl-3 pt-3 items-center justify-center">

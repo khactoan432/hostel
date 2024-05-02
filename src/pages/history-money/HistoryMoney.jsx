@@ -51,7 +51,7 @@ const HistoryMoney = () => {
 
   return (
     <div className="flex flex-col row-start-1 row-span-7 col-start-3 col-span-6 ">
-      <div className="px-3 py-4 mt-6 border-b border-gray rounded-md h-fit text-5xl mb-6">
+      <div className="flex justify-center items-center px-3 py-4 mt-6 border-b border-gray rounded-md h-fit text-5xl mb-6">
         LỊCH SỬ NẠP TIỀN
       </div>
       <table className="w-full text-sm text-center text-gray-500 dark:text-gray-400 border-2">

@@ -92,8 +92,8 @@ const EditProfile = (props) => {
     return (
 
             <div className="flex flex-col row-start-1 row-span-7 col-start-3 col-span-6 ml-5">
-                <div className="py-4 mt-6 border-b border-gray rounded-md h-fit text-3xl font-bold">
-                    Chỉnh sửa thông tin cá nhân
+                <div className="flex justify-center items-center py-4 mt-6 border-b border-gray rounded-md h-fit text-3xl font-bold">
+                    Thay đổi thông tin
                 </div>
                     <form id="form1" className="my-10 mr-10" onSubmit={handleSubmit}>
                             <div className="items-center flex justify-between mt-8">

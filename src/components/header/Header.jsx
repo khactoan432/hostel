@@ -98,17 +98,17 @@ const Header = memo((props) => {
           className="text-4xl text-cyan-600 font-semibold cursor-pointer"
         >
           {/* <Link to="/">BKHostel</Link> */}
-          BKHostel
+          HOSTEL-SERVICE
         </span>
         <div className="flex flex-col items-start  justify-center md:items-center md:flex-row space-y-2 md:space-y-0 space-x-0 md:space-x-16">
           {/* Favorite  */}
-          <Link to={isAuthenticated ? '/save-post' : '/login'}>
+          {/* <Link to={isAuthenticated ? '/save-post' : '/login'}>
             <div className="flex items-center justify-center space-x-2">
               <HeartOutlined />
 
               <p className="font-medium">Yêu thích</p>
             </div>
-          </Link>
+          </Link> */}
           {isAuthenticated ? (
             <div
               className="options-container relative hover:cursor-pointer"
@@ -158,13 +158,13 @@ const Header = memo((props) => {
                     <p>Lịch sử đăng tin</p>
                   </li>
                   {/* </Link> */}
-                  <Link to="/save-post">
+                  {/* <Link to="/save-post">
                     <li className="flex justify-start items-center space-x-1 px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
                       <HeartOutlined />
 
                       <p>Trang yêu thích</p>
                     </li>
-                  </Link>
+                  </Link> */}
                   {/* <Link to="/user/Recharge"> */}
                   <li
                     onClick={() => routingHandler('/user/Recharge', 4)}

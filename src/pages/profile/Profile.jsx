@@ -10,7 +10,7 @@ const Profile = () => {
     const [config, setConfig] = useState({'Authorization': authToken});
 
     return (
-            <div className="col-start-3 col-span-8 gap-3 max-w-[1536px]" id="main-components">
+            <div  className=" col-start-3 col-span-8 gap-3 max-w-[1536px]" id="main-components">
                 {isChangePassword
                 ?
                     <Password action={() => setIsChangePassword(!isChangePassword)} config={config} changeConfig={(newConfig) => setConfig(newConfig)}></Password>

@@ -199,7 +199,7 @@ const Header = memo((props) => {
                               <button
                                     onClick={() => (isAuthenticated ? navigate("/user/post-new") : navigate("/login"))}
                                     type='button'
-                                    className='flex space-x-2 items-center justify-center background-primary p-4 px-9 text-center text-white rounded-lg'
+                                    className='flex space-x-2 items-center justify-center bg-white p-4 px-9 text-center text-black rounded-lg'
                               >
                                     <p className='font-medium'>Đăng tin</p>
                                     <PlusCircleOutlined />

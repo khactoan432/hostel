@@ -56,7 +56,7 @@ const Login = memo((props) => {
       return (
             <div className='h-screen'>
                   {/* <!-- Global Container --> */}
-                  <div className='flex items-center justify-center min-h-screen bg-cyan-50'>
+                  <div className='flex items-center justify-center min-h-screen background-secondary'>
                         {/* <!-- Card Container --> */}
                         <div className='relative flex flex-col m-6 space-y-10 bg-white shadow-2xl rounded-2xl md:flex-row md:space-y-0 md:m-0'>
                               {/* <!-- Left Side --> */}
@@ -198,7 +198,7 @@ const Login = memo((props) => {
                               <div className="rounded-r-2xl hidden w-[430px] md:block bg-[url('/src/assets/images/login/image.png')]">
                                     <img src={sideImage} alt='' className='w-[430px] h-[629.6px] hidden' />
                               </div>
-                              {/* <Link to='/'>
+                              <Link to='/'>
                                     <div className='group absolute hidden -top-5 right-4 md:flex items-center justify-center w-10 h-10 bg-gray-200 rounded-full md:bg-white md:top-4 hover:cursor-pointer hover:-translate-y-0.5 transition duration-150'>
                                           <svg
                                                 xmlns='http://www.w3.org/2000/svg'
@@ -215,7 +215,7 @@ const Login = memo((props) => {
                                                 <line x1='6' y1='6' x2='18' y2='18' />
                                           </svg>
                                     </div>
-                              </Link> */}
+                              </Link>
                         </div>
                   </div>
             </div>

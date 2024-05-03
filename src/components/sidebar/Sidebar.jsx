@@ -60,7 +60,7 @@ const Sidebar = ({}) => {
       }, []);
 
       return (
-            <div className='pl-10 pr-10 font-semibold row-start-1 row-span-7 col-start-1 col-span-2 text-lg bg-[#FEF0F3]'>
+            <div className='pl-10 pr-10 my-10 rounded-2xl font-semibold row-start-1 row-span-7 col-start-1 col-span-2 text-lg background-secondary'>
                   <div className='py-8 grid grid-cols-2'>
                         <div className='ml-4 grid grid-cols-2 font-medium'>
                               <div className='mr-10 w-20 h-20 rounded-full bg-white items-center overflow-hidden'>
@@ -73,13 +73,13 @@ const Sidebar = ({}) => {
                         </div>
                   </div>
                   {/* <a href="./post-new"> */}
-                  <div className='text-[13px] font-medium'>
+                  <div className='text-[18px] font-medium'>
                         <Link to='/user/post-new' onClick={() => updateActiveTab(1)}>
                               <div
                                     className={
                                           activeTab === 1
-                                                ? "my-1 p-3 hover:cursor-pointer hover:bg-[#E7E6EC] item bg-[#E7E6EC]"
-                                                : "my-1 p-3 hover:cursor-pointer hover:bg-[#E7E6EC] item"
+                                                ? "my-1 p-3 rounded-lg hover:cursor-pointer text-white hover:bg-[#5f6f52] item bg-[#5f6f52]"
+                                                : "my-1 p-3 rounded-lg hover:cursor-pointer hover:bg-[#5f6f52] item"
                                     }
                               >
                                     Đăng tin cho thuê
@@ -92,8 +92,8 @@ const Sidebar = ({}) => {
                               <div
                                     className={
                                           activeTab === 2
-                                                ? "my-1 p-3 hover:cursor-pointer hover:bg-[#E7E6EC] item bg-[#E7E6EC]"
-                                                : "my-1 p-3 hover:cursor-pointer hover:bg-[#E7E6EC] item"
+                                                ? "my-1 p-3 rounded-lg hover:cursor-pointer text-white hover:bg-[#5f6f52] item bg-[#5f6f52]"
+                                                : "my-1 p-3 rounded-lg hover:cursor-pointer hover:bg-[#5f6f52] item"
                                     }
                               >
                                     Lịch sử cho thuê
@@ -105,8 +105,8 @@ const Sidebar = ({}) => {
                               <div
                                     className={
                                           activeTab === 3
-                                                ? "my-1 p-3 hover:cursor-pointer hover:bg-[#E7E6EC] item bg-[#E7E6EC]"
-                                                : "my-1 p-3 hover:cursor-pointer hover:bg-[#E7E6EC] item"
+                                                ? "my-1 p-3 rounded-lg hover:cursor-pointer text-white hover:bg-[#5f6f52] item bg-[#5f6f52]"
+                                                : "my-1 p-3 rounded-lg hover:cursor-pointer hover:bg-[#5f6f52] item"
                                     }
                               >
                                     Thông tin cá nhân
@@ -119,8 +119,8 @@ const Sidebar = ({}) => {
                                     onClick={recharge}
                                     className={
                                           activeTab === 4
-                                                ? "my-1 p-3 hover:cursor-pointer hover:bg-[#E7E6EC] item bg-[#E7E6EC]"
-                                                : "my-1 p-3 hover:cursor-pointer hover:bg-[#E7E6EC] item"
+                                                ? "my-1 p-3 rounded-lg hover:cursor-pointer text-white hover:bg-[#5f6f52] item bg-[#5f6f52]"
+                                                : "my-1 p-3 rounded-lg hover:cursor-pointer hover:bg-[#5f6f52] item"
                                     }
                               >
                                     Nạp tiền
@@ -133,8 +133,8 @@ const Sidebar = ({}) => {
                                     onClick={historyMoneny}
                                     className={
                                           activeTab === 5
-                                                ? "my-1 p-3 hover:cursor-pointer hover:bg-[#E7E6EC] item bg-[#E7E6EC]"
-                                                : "my-1 p-3 hover:cursor-pointer hover:bg-[#E7E6EC] item"
+                                                ? "my-1 p-3 rounded-lg hover:cursor-pointer text-white hover:bg-[#5f6f52] item bg-[#5f6f52]"
+                                                : "my-1 p-3 rounded-lg hover:cursor-pointer hover:bg-[#5f6f52] item"
                                     }
                               >
                                     Lịch sử nạp tiền
@@ -145,8 +145,8 @@ const Sidebar = ({}) => {
                               <div
                                     className={
                                           activeTab === 6
-                                                ? "my-1 p-3 hover:cursor-pointer hover:bg-[#E7E6EC] item bg-[#E7E6EC]"
-                                                : "my-1 p-3 hover:cursor-pointer hover:bg-[#E7E6EC] item"
+                                                ? "my-1 p-3 rounded-lg hover:cursor-pointer text-white hover:bg-[#5f6f52] item bg-[#5f6f52]"
+                                                : "my-1 p-3 rounded-lg hover:cursor-pointer hover:bg-[#5f6f52] item"
                                     }
                               >
                                     Lịch sử thanh toán

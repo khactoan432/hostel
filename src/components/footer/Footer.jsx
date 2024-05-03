@@ -5,15 +5,18 @@ import { Link } from "react-router-dom";
 import facebookIcon from "../../assets/images/footer/facebook.png";
 import youtubeIcon from "../../assets/images/footer/youtube.png";
 import zaloIcon from "../../assets/images/footer/zalo.png";
+import "./footer.scss";
+
 const Footer = memo((props) => {
       return (
-            <footer className='bg-white container mx-auto px-10 py-4 border-t-2 border-t-gray-300'>
+            <footer className='background-primary text-white px-10 py-4 border-t-2 border-t-gray-300'>
                   {/* Inner container */}
-                  <div className='flex lg:flex-row justify-between items-start'>
+                  <div className='flex lg:flex-row justify-around items-start'>
                         <section>
-                              <span className='text-4xl text-hostel font-semibold'>
+                              <span className='text-4xl font-semibold'>
                                     <Link to='/'>Motel-SG</Link>
                               </span>
+                              <div class='image-footer'></div>
                         </section>
                         <section>
                               <h1 className='font-bold text-lg'>Về chúng tôi</h1>

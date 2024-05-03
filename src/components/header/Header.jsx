@@ -85,13 +85,6 @@ const Header = memo((props) => {
                                     <HoverDivider />
                               </div>
                         ))}
-                        <div className='group hover:cursor-pointer'>
-                              <Link to='/services'>
-                                    <span>Bảng giá</span>
-                              </Link>
-
-                              <HoverDivider />
-                        </div>
                         <div className='flex flex-col items-start  justify-center md:items-center md:flex-row space-y-2 md:space-y-0 space-x-0 md:space-x-16'>
                               {isAuthenticated ? (
                                     <div className='options-container relative hover:cursor-pointer' ref={optionsRef}>

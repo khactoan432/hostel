@@ -16,7 +16,7 @@ const SendPassword = memo(() => {
                   {/* Global container */}
                   {/* Back Button */}
 
-                  <div className='flex justify-center items-center min-h-screen bg-cyan-50'>
+                  <div className='flex justify-center items-center min-h-screen background-secondary'>
                         <div className='relative flex flex-col m-6 px-14 py-20 md:p-24 justify-between items-center text-center bg-white space-y-4  shadow-2xl rounded-2xl'>
                               {/* <Link to="/login">
             <div className="absolute top-5 left-5 flex justify-center items-center rounded-full hover:cursor-pointer hover:-translate-y-0.5 duration-150">
@@ -38,7 +38,7 @@ const SendPassword = memo(() => {
               <span className="text-sm">Quay lại</span>
             </div>
           </Link> */}
-                              <p className='text-4xl font-semibold text-hostel pt-2'>BKArtisan</p>
+                              <p className='text-4xl font-semibold text-hostel pt-2'>Motel-SG</p>
                               <p className='text-2xl font-semibold text-center hidden md:block'>Yêu cầu thành công</p>
                               {/* <h6>Bạn vui lòng nhập email để lấy lại mật khẩu</h6> */}
                               <div className='hidden md:block'>

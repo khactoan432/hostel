@@ -28,7 +28,7 @@ const EnterEmail = memo((props) => {
                   {/* Global container */}
                   {/* Back Button */}
 
-                  <div className='flex justify-center items-center min-h-screen bg-cyan-50'>
+                  <div className='flex justify-center items-center min-h-screen background-secondary'>
                         <div className='relative flex flex-col m-6 p-28 justify-between items-center text-center bg-white space-y-4  shadow-2xl rounded-2xl'>
                               <Link to='/login'>
                                     <div className='absolute top-5 left-5 flex justify-center items-center space-x-1 rounded-full hover:cursor-pointer hover:-translate-y-0.5 duration-150'>
@@ -50,7 +50,7 @@ const EnterEmail = memo((props) => {
                                           <span className='text-sm'>Quay lại</span>
                                     </div>
                               </Link>
-                              <p className='text-4xl font-semibold text-hostel pt-2'>BKArtisan</p>
+                              <p className='text-4xl font-semibold text-hostel pt-2'>Motel-SG</p>
                               <p className='text-2xl font-semibold text-center hidden md:block'>Lấy lại mật khẩu</p>
                               <h6>Bạn vui lòng nhập email để lấy lại mật khẩu</h6>
 

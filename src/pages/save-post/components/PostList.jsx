@@ -1,29 +1,22 @@
-import RentalPost from "./RentalPost"
-import EmptySection from './EmptySection';
+/** @format */
 
+import RentalPost from "./RentalPost";
+import EmptySection from "./EmptySection";
 
-const PostList = ({postsInfo}) => {
+const PostList = ({ postsInfo }) => {
+      return (
+            <div className='flex flex-col flex-grow gap-4 px-3 py-3 border border-gray-300 rounded-md background-third h-fit'>
+                  <p className='text-lg font-semibold mr-5'>Tin đã lưu</p>
 
+                  {postsInfo.length > 0 ? (
+                        postsInfo.map((post, i) => {
+                              return <RentalPost key={i} {...post} />;
+                        })
+                  ) : (
+                        <EmptySection />
+                  )}
+            </div>
+      );
+};
 
-  return (
-    <div className="flex flex-col gap-4 px-3 py-3 border border-gray-300 rounded-md h-fit">
-      <p className="text-lg font-semibold mr-5">
-        Tin đã lưu
-      </p>
-
-      {postsInfo.length > 0 
-        ? postsInfo.map((post, i) => {
-          return (
-            <RentalPost 
-              key={i}
-              {...post}
-            />
-          )
-        })
-        : <EmptySection />
-      }
-    </div>
-  )
-}
-
-export default PostList
+export default PostList;

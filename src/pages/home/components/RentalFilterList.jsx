@@ -1,21 +1,16 @@
-import RentalFilter from "./RentalFilter"
-import { priceFilter, areaFilter} from './constant.js'
+/** @format */
+
+import RentalFilter from "./RentalFilter";
+import { priceFilter, areaFilter } from "./constant.js";
+import "./RentalFilterList.scss";
 
 const RentalFilterList = () => {
+      return (
+            <div className='left-options h-fit flex flex-col gap-3 mr-[50px]'>
+                  <RentalFilter {...priceFilter} cols={1} />
+                  <RentalFilter {...areaFilter} cols={1} />
+            </div>
+      );
+};
 
-
-    return (
-        <div className=' h-fit flex flex-col gap-5 ml-[50px]'>
-            <RentalFilter 
-                {...priceFilter}
-                cols={2}
-                />
-            <RentalFilter 
-                {...areaFilter}
-                cols={2}
-            />
-        </div>
-    )
-}
-
-export default RentalFilterList
+export default RentalFilterList;

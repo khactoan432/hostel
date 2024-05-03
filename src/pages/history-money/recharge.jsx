@@ -88,25 +88,25 @@ const Recharge = () => {
     }, []);
     return (
         <div className="flex flex-col col-start-3 col-end-8 ml-5">
-            <div className="px-3 py-4 mt-6 border-b border-gray rounded-md h-fit text-5xl">
+            <div className="flex justify-center items-center px-3 py-4 mt-6 border-b border-gray rounded-md h-fit text-5xl">
                 NẠP TIỀN
             </div>
             <div className="px-3 py-4 mt-3 w-100 bg-gray-300 border-b border-gray rounded-md h-fit text-2xl">
-                <div>Số dư ví</div>
-                <div className="pt-10">{infoUser.balance}</div>
+                <span>Số dư tài khoản:   </span>
+                <span className="pt-10">{infoUser.balance}</span>
             </div>
-            <div className="text-2xl py-3 mt-6">
-                Phương thức nạp tiền
-            </div>
-            <div className="px-3 py-3 bg-gray-300 border-b border-gray rounded-md h-40 text-2xl">
+            <span className="text-2xl py-3 mt-6">
+                Phương thức thanh toán:
+            </span>
+            <span className="px-3 py-3 bg-gray-300 border-b border-gray rounded-md h-20 text-2xl">
                 VNPAY
-            </div>
+            </span>
             <div className="col-start-3 col-span-6 text-2xl py-3 mt-6">
-                Số tiền nạp
+                Nhập số tiền: 
             </div>
             <input onChange={handleChange} value={amount.amount} name="amount" className="px-3 py-3 border border-gray rounded-md h-14 text-2xl" />
 
-            <button onClick={handleSubmit} className='justify-center items-center rounded-md px-3 py-3 mt-8 mb-16 bg-[#0000FF]'>
+            <button onClick={handleSubmit} className='justify-center items-center rounded-md px-3 py-3 mt-8 mb-16 bg-[#ff383b]'>
                 <p className='text-white text-3xl font-semibold'>Nạp Tiền</p>
             </button>
         </div>

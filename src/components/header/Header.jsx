@@ -86,10 +86,6 @@ const Header = memo((props) => {
                               </div>
                         ))}
                         <div className='group hover:cursor-pointer'>
-                              <span>Tin tức</span>
-                              <HoverDivider />
-                        </div>
-                        <div className='group hover:cursor-pointer'>
                               <Link to='/services'>
                                     <span>Bảng giá</span>
                               </Link>

@@ -65,7 +65,7 @@ const Header = memo((props) => {
                               onClick={() => rentingTypeHandler(null)}
                               className='text-4xl font-semibold cursor-pointer'
                         >
-                              Hostel-SG
+                              Motel-SG
                         </span>
                         {/* <div>Quà theo lễ</div> */}
                         <div onClick={() => rentingTypeHandler(null)} className='group hover:cursor-pointer'>

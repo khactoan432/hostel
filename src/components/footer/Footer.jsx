@@ -12,7 +12,7 @@ const Footer = memo((props) => {
                   <div className='flex lg:flex-row justify-between items-start'>
                         <section>
                               <span className='text-4xl text-hostel font-semibold'>
-                                    <Link to='/'>Hostel-SG</Link>
+                                    <Link to='/'>Motel-SG</Link>
                               </span>
                         </section>
                         <section>

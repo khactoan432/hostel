@@ -112,13 +112,13 @@ const Password = (props) => {
                               <button
                                     type='button'
                                     onClick={() => action()}
-                                    className='justify-center items-center w-full rounded-md px-3 py-3 mt-8 mb-16 mr-8 bg-[#4992FF]'
+                                    className='justify-center items-center w-full rounded-md px-3 py-3 mt-8 mb-16 mr-8 bg-[#5f6f52]'
                               >
                                     <p className='text-sm text-white font-semibold'>Quay lại</p>
                               </button>
                               <button
                                     type='submit'
-                                    className='justify-center items-center w-full rounded-md px-3 py-3 mt-8 mb-16 ml-8 bg-[#16AD4D]'
+                                    className='justify-center items-center w-full rounded-md px-3 py-3 mt-8 mb-16 ml-8 bg-[#5f6f52]'
                               >
                                     <p className='text-sm text-white font-semibold'>Cập nhật</p>
                               </button>
